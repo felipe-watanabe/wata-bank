@@ -61,10 +61,10 @@
 ## Handoff
 
 - **Feature**: project-foundation — code base MD files + AGENTS.md + service docs scaffold
-- **Phase / Task**: Phase 1 — .specs foundation creation (STATE.md complete, spec.md + tasks.md in progress)
-- **Completed**: STATE.md with AD-001 through AD-007
-- **In-progress** (file:line): `.specs/features/project-foundation/spec.md` — writing spec
-- **Next step**: Create spec.md, then tasks.md, then execute file creation phases
+- **Phase / Task**: All tasks complete (T1–T10) — awaiting Verifier sub-agent validation
+- **Completed**: STATE.md (AD-001–AD-007), spec.md, tasks.md, AGENTS.md, platform docs (system-overview, service-map, data-flow, ADR-001/002/003), service docs (5 services × 4 files each), README.md
+- **In-progress** (file:line): none — dispatching Verifier
+- **Next step**: Dispatch Verifier sub-agent for feature-level validation
 - **Blockers**: none
-- **Uncommitted files**: .specs/, platform/, services/ (directories only)
+- **Uncommitted files**: .specs/features/project-foundation/spec.md (traceability updated), .specs/STATE.md (handoff updated)
 - **Branch**: main

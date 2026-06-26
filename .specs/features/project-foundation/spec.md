@@ -87,21 +87,21 @@ The mini banking ecosystem codebase needs its foundational documentation scaffol
 
 | Requirement ID | Story | Phase | Status |
 | --- | --- | --- | --- |
-| FDN-01 | P1: AGENTS.md exists with commands and conventions | Execute | Pending |
-| FDN-02 | P1: Platform system-overview.md | Execute | Pending |
-| FDN-03 | P1: Platform service-map.md | Execute | Pending |
-| FDN-04 | P1: Platform data-flow.md | Execute | Pending |
-| FDN-05 | P1: Platform ADR-001 (repo structure) | Execute | Pending |
-| FDN-06 | P1: Platform ADR-002 (observability baseline) | Execute | Pending |
-| FDN-07 | P1: Platform ADR-003 (idempotency strategy) | Execute | Pending |
-| FDN-08 | P1: customer-account-service docs (README + 3 docs) | Execute | Pending |
-| FDN-09 | P1: ledger-service docs (README + 3 docs) | Execute | Pending |
-| FDN-10 | P1: payment-orchestrator docs (README + 3 docs) | Execute | Pending |
-| FDN-11 | P1: notification-service docs (README + 3 docs) | Execute | Pending |
-| FDN-12 | P1: reconciliation-service docs (README + 3 docs) | Execute | Pending |
-| FDN-13 | P1: .specs/STATE.md with initial ADRs | Execute | Pending |
+| FDN-01 | P1: AGENTS.md exists with commands and conventions | Execute | Verified |
+| FDN-02 | P1: Platform system-overview.md | Execute | Verified |
+| FDN-03 | P1: Platform service-map.md | Execute | Verified |
+| FDN-04 | P1: Platform data-flow.md | Execute | Verified |
+| FDN-05 | P1: Platform ADR-001 (repo structure) | Execute | Verified |
+| FDN-06 | P1: Platform ADR-002 (observability baseline) | Execute | Verified |
+| FDN-07 | P1: Platform ADR-003 (idempotency strategy) | Execute | Verified |
+| FDN-08 | P1: customer-account-service docs (README + 3 docs) | Execute | Verified |
+| FDN-09 | P1: ledger-service docs (README + 3 docs) | Execute | Verified |
+| FDN-10 | P1: payment-orchestrator docs (README + 3 docs) | Execute | Verified |
+| FDN-11 | P1: notification-service docs (README + 3 docs) | Execute | Verified |
+| FDN-12 | P1: reconciliation-service docs (README + 3 docs) | Execute | Verified |
+| FDN-13 | P1: .specs/STATE.md with initial ADRs | Execute | Verified |
 
-**Coverage:** 13 total, 0 mapped to tasks, 13 unmapped
+**Coverage:** 13 total, 13 mapped to tasks, 0 unmapped
 
 ## Success Criteria
 
