@@ -1,0 +1,106 @@
+# ==============================================================================
+# WATABANK MONOREPO - MASTER .GITIGNORE
+# ==============================================================================
+# This file must be placed at the ROOT of the monorepo.
+# It globally manages what should be ignored by Git across all services
+# (customer-account-service, ledger-service, etc.) and within the platform/ folder.
+
+### GRADLE & BUILD COMPILATION ###
+.gradle/
+build/
+**/build/
+out/
+**/out/
+bin/
+**/bin/
+
+# Gradle Daemon cache and logs
+.gradle-wrapper/
+*.gradle.bak
+*.gradle.gh.bak
+.gradle-enterprise/
+
+# Local Gradle properties (may contain absolute local paths)
+gradle.properties
+# EXCEPTION: Uncomment the line below if your CI pipeline requires a versioned gradle.properties
+# !platform/ci/gradle.properties
+
+### IDEs & CODE EDITORS ###
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea_modules/
+
+# Visual Studio Code (VS Code)
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### OPERATING SYSTEM & TEMPORARY FILES ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash
+
+### LOGS, METRICS & SECURITY ###
+*.log
+**/logs/
+*.log.*
+.history/
+.pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Local environment files containing keys, passwords, or tokens
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.jks
+
+### DOCKER & LOCAL DEV CONTAINER ###
+# Prevents committing local PostgreSQL development database volumes
+**/local-dev/postgres-data/
+**/local-dev/data/
+/local-docs
+
+## Other
+.aider*
+!.aider.conf.yml
+!.aider
+
+# =================================
