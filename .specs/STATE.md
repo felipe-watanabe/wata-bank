@@ -60,11 +60,11 @@
 
 ## Handoff
 
-- **Feature**: project-foundation — code base MD files + AGENTS.md + service docs scaffold
-- **Phase / Task**: All tasks complete (T1–T10) — awaiting Verifier sub-agent validation
-- **Completed**: STATE.md (AD-001–AD-007), spec.md, tasks.md, AGENTS.md, platform docs (system-overview, service-map, data-flow, ADR-001/002/003), service docs (5 services × 4 files each), README.md
-- **In-progress** (file:line): none — dispatching Verifier
-- **Next step**: Dispatch Verifier sub-agent for feature-level validation
+- **Feature**: customer-account-service — full service implementation
+- **Phase / Task**: Specify + Design + Tasks complete — awaiting user confirmation to begin Execute
+- **Completed**: spec.md (9 stories, 9 requirements, 60+ ACs), design.md (14 components, 4 layers, 6 migrations, error strategy), tasks.md (12 tasks, 6 phases, test coverage matrix, co-location validated)
+- **In-progress** (file:line): none — all planning artifacts written
+- **Next step**: User confirms tasks; agent enters Execute phase (implement T1 → T12 per tasks.md)
 - **Blockers**: none
-- **Uncommitted files**: .specs/features/project-foundation/spec.md (traceability updated), .specs/STATE.md (handoff updated)
+- **Uncommitted files**: .specs/features/customer-account-service/spec.md, design.md, tasks.md; .specs/STATE.md (handoff updated)
 - **Branch**: main
