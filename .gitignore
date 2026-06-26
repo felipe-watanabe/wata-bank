@@ -96,11 +96,12 @@ Desktop.ini
 # Prevents committing local PostgreSQL development database volumes
 **/local-dev/postgres-data/
 **/local-dev/data/
-/local-docs
 
 ## Other
 .aider*
 !.aider.conf.yml
 !.aider
+
+/local-docs
 
 # =================================

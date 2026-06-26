@@ -1,5 +1,7 @@
 # AGENTS.md — Mini Banking Ecosystem
 
+When you need to look up framework or library documentation, use the `context7` MCP tool.
+
 ## Build & Test Commands
 
 ### Root-level
